@@ -72,7 +72,7 @@ POINT_COUNT = 15000 # how many points to draw. should meet the following conditi
 POINT_SCALE = 0.2 # you just have to get a feeling for this.
 POINT_COLOR = (255, 0, 0, 255) # red, same color schema as above
 
-for i in range(POINT_COUNT):
+for _ in range(POINT_COUNT):
     x1, y1 = choice(points) # x and y coords of a random triangle side point
     x2, y2 = point # x and y coords of the last drewn point
 
